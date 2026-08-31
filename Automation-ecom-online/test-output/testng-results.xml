@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-28T15:37:20 IST" name="Suite" finished-at="2026-07-28T15:38:34 IST" duration-ms="74320">
+    <groups>
+    </groups>
+    <test started-at="2026-07-28T15:37:20 IST" name="Test" finished-at="2026-07-28T15:38:34 IST" duration-ms="74320">
+      <class name="Testcases.loginTestCases">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:37:19 IST" name="startReport" finished-at="2026-07-28T15:37:20 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:37:21 IST" name="openApp" finished-at="2026-07-28T15:37:33 IST" duration-ms="12087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.loginTestCases.emptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Production]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="emptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:37:33 IST" name="emptyFieldsValidation" description="Login with empty email and password" data-provider="loginWithEmptyData" finished-at="2026-07-28T15:37:41 IST" duration-ms="7979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOG_006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login with empty email and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Login was unsuccessful. Please correct the errors and try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFieldsValidation -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:37:41 IST" name="closeApp" finished-at="2026-07-28T15:37:41 IST" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyFieldsValidation status=SUCCESS method=loginTestCases.emptyFieldsValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:37:41 IST" name="openApp" finished-at="2026-07-28T15:37:51 IST" duration-ms="9876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.loginTestCases.emptyMaillogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Production]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="emptyMaillogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:37:51 IST" name="emptyMaillogin" description="Login with empty email" data-provider="loginWithEmptyMail" finished-at="2026-07-28T15:38:17 IST" duration-ms="26071" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOG_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Negative]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login with empty email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Login was unsuccessful. Please correct the errors and try again.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[2]/span/span"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da76e5394c1e12dd31868e21e2924c46, findElement {value=/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[2]/span/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\One\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55479}, goog:processID: 10880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55479/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da76e5394c1e12dd31868e21e2924c46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[2]/span/span"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da76e5394c1e12dd31868e21e2924c46, findElement {value=/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[2]/span/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\One\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55479}, goog:processID: 10880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55479/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da76e5394c1e12dd31868e21e2924c46
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at PageObject.loginPage.getEmailValidationMsg(loginPage.java:33)
+at Testcases.loginTestCases.emptyMaillogin(loginTestCases.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyMaillogin -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:38:17 IST" name="closeApp" finished-at="2026-07-28T15:38:19 IST" duration-ms="1647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyMaillogin status=FAILURE method=loginTestCases.emptyMaillogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method signature="emptyPasswordlogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:38:19 IST" name="emptyPasswordlogin" description="Login with empty password" finished-at="2026-07-28T15:38:19 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void Testcases.loginTestCases.emptyPasswordlogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : loginWithEmptyPassword in class DataProvider.LoginDataProvider]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void Testcases.loginTestCases.emptyPasswordlogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : loginWithEmptyPassword in class DataProvider.LoginDataProvider
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordlogin -->
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:38:19 IST" name="openApp" finished-at="2026-07-28T15:38:27 IST" duration-ms="8270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.loginTestCases.loginValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Production]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:38:27 IST" name="loginValidation" description="Login with valid email and valid password" data-provider="loginWithValidData" finished-at="2026-07-28T15:38:34 IST" duration-ms="6726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOG_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login with valid email and valid password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[john123@test123.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[My account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:38:34 IST" name="closeApp" finished-at="2026-07-28T15:38:34 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginValidation status=SUCCESS method=loginTestCases.loginValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.loginTestCases@24269709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Testcases.loginTestCases@24269709]" started-at="2026-07-28T15:38:34 IST" name="endReport" finished-at="2026-07-28T15:38:35 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Testcases.loginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
